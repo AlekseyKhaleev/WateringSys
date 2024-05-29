@@ -9,7 +9,7 @@ from django.http import HttpResponseRedirect
 from .forms import PumpForm
 from .models import PumpingValueModel
 
-from TEMPapp.serializers import *
+from Django_side.TEMPapp.serializers import *
 
 
 ###############################

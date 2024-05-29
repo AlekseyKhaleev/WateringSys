@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "wateringsys-django"
+version = "0.1.0"
+description = "Web client for Flower watering system"
+authors = ["Aleksey Khaleev <aleksey52nn@gmail.com>"]
+license = "GNU General Public License Version 3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^4.1.7"
+django-chartjs = "^2.3.0"
+djangorestframework = "^3.14.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
